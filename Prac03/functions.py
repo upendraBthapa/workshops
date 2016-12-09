@@ -19,3 +19,13 @@ is_prime(is_prime(5))
 def inch_to_meter(inch):
     return(0.0254*inch)
 print(inch_to_meter(5))
+
+
+def tax_return(income):
+    if income <= 16000:
+        return "no tax"
+    else:
+        return (income*0.3)
+print(tax_return(17000))
+
+
